@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!--// Librerie standard per Jquery -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+  <script src="jquery/slick.min.js"></script>
+  <link href="css/slick.css" rel="stylesheet">
+  <link href="css/style_slick.css" rel="stylesheet">
+  <link href="css/slick-theme.css" rel="stylesheet">
+  <link href="css/ug-theme-default.css" rel="stylesheet">
+
+  <script>
+    $(document).ready(function() {
+      $('.your-class').slick({
+        dots: true,
+        speed: 500
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <div class="your-class" data-slick='{"appendDots", "appendArrows" "dots:true"}' style="color: green; width: 400px; margin: 50px auto; border: 1px solid red; text-align: center;">
+
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+    <meta charset="UTF-8">
+    <title>Biciclette Vintage</title>
+    <meta name="description" content="Biciclette Vintage per un'esperienza su strada unica e sostenibile">
+    <meta name="author" content="Mind_Gabri">
+    <meta name="copyright" content="Copyright Gab_Crab">
+
+    <link rel="stylesheet" href="css/style.css">
+
+<!--    // Includi Font speciali per sito-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1d717e264.js" crossorigin="anonymous"></script>
+
+<!--    // Includi Librerie standard per Jquery -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    
+<!--    // Includi Libreria effetto easing Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+<!--    // Includi Libreria UI Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<!--    // Includi libreria slick per carousel-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    
+    <script src="jquery/slick.min.js"></script>
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/style_slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <script src="css/fonts/slick.eot"></script> 
+    <link href="css/fonts/slick.svg">
+    <link href="css/fonts/slick.ttf">
+    <link href="css/fonts/slick.woff">
+
+<!--    // Includi libreria Fancy Box-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+
+    <script>
+        // Carousel #socialoutline
+        $(document).ready(function() {
+            $('#social_outline').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+    
+        // Lightbox Gallery per #gallery
+            $('[data-fancybox="gallery"]').fancybox({
+	      
+                afterLoad : function(instance, current) {
+            var pixelRatio = window.devicePixelRatio || 1;
+
+            if ( pixelRatio > 1.5 ) {
+            current.width = current.width / pixelRatio;
+            current.height = current.height / pixelRatio;
+            }
+            }
+            });
+               
+        }); // fine doc ready
+    </script>
+</head>
+
+<body>
+    <div id="slider_menu">
+        <div id="menu">
+            <div id="centrato">
+                <ul>
+                    <li><a href="#text_presentazione">ABOUT US</a></li>
+                    <li><a href="#social_outline"> WORK</a> </li>
+                    <li><a href=""><img src="img/logo.png" alt=""></a></li>
+                    <li><a href="#discover">SHOP</a></li>
+                    <li><a href="#form">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="container">
+        <div id="text_presentazione" class="padding">
+            <img src="img/icon-chain.png" alt="icona presentazione">
+            <h3 class="padding">A NEW GENERATION OF VINTAGE BIKE</h3>
+            <p class="padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eaque, praesentium assumenda. Assumenda obcaecati, molestiae repellendus minus nulla dolorem officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta eveniet accusantium, saepe. Magni nisi voluptas, repudiandae eligendi veniam tempore! </p>
+
+        </div>
+        <div id="bici_1">
+            <div id="immagine_bici_1">
+            </div>
+            <aside>
+                <div id="olivia" class="padding">
+                    <img src="img/icon-fish.png" alt="icona presentazione">
+                    <h3 class="padding">VINTAGE OLIVIA</h3>
+                    <p class="padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, distinctio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="linea"></div>
+                </div>
+
+                <div id="sella_rossa"> </div>
+            </aside>
+        </div>
+        <div id="bici_2">
+            <div id="immagine_bici_2">
+                <img src="img/vintage-logo.png" alt="logo vintage">
+            </div>
+            <aside>
+                <div id="boriosa" class="padding">
+                    <img src="img/icon-pedal.png" alt="icona pedale">
+                    <h3 class="padding">VINTAGE BORIOSA</h3>
+                    <p class="padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, distinctio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="linea"></div>
+                </div>
+
+                <div id="sella_nera"> </div>
+            </aside>
+        </div>
+        <div id="bici_3">
+            <div id="dettaglio_1"></div>
+            <div id="retro">
+                <div id="retro_info" class="padding">
+                    <img src="img/icon-forcella.png" alt="icona forcella">
+                    <h3 class="padding">RETRO BIKE - M.HULOT</h3>
+                    <p class="padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, distinctio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    <div class="linea"></div>
+                </div>
+                <div id="sella_mavic"> </div>
+            </div>
+            <div id="dettaglio_3"></div>
+        </div>
+        <div id="social_outline">
+
+            <div class="tabs" class="padding">
+                <img class="logo" src="img/twitter-logo.png" alt="logo twitter">
+                <h3>AOD New York @aod</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorum, officiis. Velit!</p>
+            </div>
+            <div class="tabs" class="padding">
+                <img class="logo" src="img/twitter-logo.png" alt="logo twitter">
+                <h3>AOD New York @aod</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptas ratione neque.</p>
+            </div>
+            <div class="tabs" class="padding">
+                <img class="logo" src="img/twitter-logo.png" alt="logo twitter">
+                <h3>AOD New York @aod</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sit ex eveniet. </p>
+            </div>
+        </div>
+
+       <div id="gallery">
+           <div class="blocco">
+               <div class="sopra">
+                   <a href="gallery/sella1.jpg" data-fancybox="gallery" data-caption="#1 Sella">
+                       <img src="gallery/sella1.jpg" alt="sella"></a>
+                   <a href="gallery/selle-colorate.jpg" data-fancybox="gallery" data-caption="#2 Selle colorate">
+                       <img src="gallery/selle-colorate.jpg" alt="sella"></a>
+               </div>
+               <div class="sotto">
+                   <a href="gallery/sella-brooks.jpg" data-fancybox="gallery" data-caption="#3 Sella Brooks">
+                       <img src="gallery/sella-brooks.jpg" alt="sella"></a>
+               </div>
+           </div>
+           <div class="blocco">
+               <div id="secondo_terzo">
+                   <a href="gallery/bici.jpg" data-fancybox="gallery" data-caption="#4 Bicicletta vintage">
+                       <img src="gallery/bici.jpg" alt="bici"></a>
+                   <a href="gallery/old-bike.jpg" data-fancybox="gallery" data-caption="#5 Bicicletta Fashion Vintage">
+                       <img src="gallery/old-bike.jpg" alt="bici"></a>
+               </div>
+           </div>
+           <div class="blocco">
+               <div class="sotto" id="margine_negozio">
+                   <a href="gallery/negozio.jpg" data-fancybox="gallery" data-caption="#6 Negozio Biciclette">
+                       <img src="gallery/negozio.jpg" alt="negozio"></a>
+               </div>
+               <div class="sopra">
+                   <a href="gallery/sella-america.jpg" data-fancybox="gallery" data-caption="#7 Sella America">
+                       <img src="gallery/sella-america.jpg" alt="sella"></a>
+                   <a href="gallery/borsa.jpg" data-fancybox="gallery" data-caption="#8 Borsa per Bicicletta">
+                       <img src="gallery/borsa.jpg" alt="borsa bici"></a>
+               </div>
+           </div>
+       </div>
+       
+        <div id="discover">
+            <div id="spazio"> </div>
+            <div id="bordo_bottone">
+                <a href="#">DISCOVER THE SHOP</a>
+            </div>
+        </div>
+
+        <div id="form">
+            <img src="img/logo.png" alt="logo">
+            <p><i>Stay on the saddle!</i></p>
+            <form action="#" method="post">
+                <input id="ricerca" type="text" placeholder="Enter your e-mail..." name="cerca">
+                <input type="submit" value="Go">
+            </form>
+        </div>
+
+        <div id="footer">
+            
+                <a href=""><img class="float" src="img/social-twitter.png" alt=""></a>
+                <a href=""><img class="float" src="img/social-fb.png" alt=""></a>
+                <a href=""><img class="float" src="img/social-pin.png" alt=""></a>
+           
+        </div>
+    </div>
+</body>
+
+</html>

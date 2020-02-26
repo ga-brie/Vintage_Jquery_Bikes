@@ -1,0 +1,422 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Raleway', 'serif';
+    width: 100%;
+}
+
+/* Inizio Slider Menu */
+
+
+#slider_menu {
+    width: 100%;
+    height: 1050px;
+    background-image: url("../img/slide.jpg");
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+#menu {
+    height: 150px;
+    width: 803px;
+    /*background-color: #f3f4f9;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+#centrato {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#menu ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 100px;
+    line-height: 150px;
+    position: relative;
+}
+
+#menu ul li:last-child {
+    margin-right: 0;
+}
+
+#menu img {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* unvisited link */
+#menu a:link {
+    color: #000;
+    text-decoration: none;  
+}
+
+/* visited link */
+#menu a:visited {
+    color: #000;
+    text-decoration: none;  
+}
+
+/* mouse over link */
+#menu a:hover {
+    color: #000;
+    text-decoration: underline;  
+}
+
+/* selected link */
+#menu a:active {
+    color: #000;
+    text-decoration: none;  
+}
+
+/* Fine Slider Menu */
+
+/* Generale stile container */
+
+#container {
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+#container p {
+    color: #8f9190;
+}
+
+.padding img {   
+    padding: 50px 30px 10px;
+}
+
+.padding h3 {
+    padding: 10px;
+}
+
+.padding p {
+    padding: 20px 40px 40px;
+}
+
+/* Inizio Presentazione Biciclette */
+
+#text_presentazione {
+    background-color: #f7f7f7;
+    max-height: 500px;
+    margin: 0 auto;
+    padding: 100px 400px 100px;
+}
+#text_presentazione img {
+    padding: 20px 30px 10px;
+}
+
+#bici_1 {
+    background-color: #fff;
+    height: 650px;
+    width: 100%;
+}
+#immagine_bici_1{
+    float: left;
+    width: 65%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../img/manubrio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+aside {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+#olivia {
+    height: 60%;
+}
+
+.linea {
+    margin: 0 auto;
+    width: 60px;
+    border-top: solid 1px #8f9190;
+    /*position: relative;
+    top: -30px;*/
+    padding-bottom: 30px;
+}
+
+#sella_rossa{
+    background-image: url("../img/sella.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40%;
+}
+
+#bici_2 {
+    background-color: #fff;
+    height: 680px;
+}
+
+#immagine_bici_2{
+    float: right;
+    width: 65%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../img/bici-nera.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#immagine_bici_2 img {
+    position: absolute;
+    right: 350px;
+    margin-top: 188px;
+}
+
+aside {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+#boriosa {
+    height: 56.5%;
+}
+
+#sella_nera{
+    background-image: url("../img/sella-nera.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 44.5%;
+}
+#bici_3 {
+    background-color: #fff;
+    height: 680px;
+}
+#dettaglio_1 {
+    float: left;
+    width: 35%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../img/telaio-rosso.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#retro {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+#retro_info {
+    height:61%;
+}
+#sella_mavic{
+    background-image: url("../img/ruota-mavic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 39%;
+}
+#dettaglio_3{
+    float: left;
+    width: 35%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../img/bici-rossa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+/* Fine Presentazione Biciclette */
+
+/* Inizio Social Outline */
+
+#social_outline {
+    background-color: #f7f7f7;
+    height: 430px;
+    padding: 0px 250px 0px;
+    font-family: 'Raleway', 'serif';
+    width: 100%;
+}
+
+.logo {
+    margin: 0 auto 30px !important;
+}
+
+.tabs h3 {
+    margin-bottom: 10px;
+}
+
+/* Fine Social Outline */
+
+/*Inizio Gallery*/
+#gallery {
+    background-color: #fff;
+    height: 600px;
+    width: 100%;
+}
+.blocco {
+    float: left;
+    margin-right: 0;
+    width: 33.3%;
+}
+.blocco img {
+    margin: 0;
+}
+.sopra {
+    width: 100%;
+    height: 300px;
+    padding-top: -100px;
+}
+.sotto {
+    width: 100%;
+}
+.sopra img {
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+.sotto img {
+    height: 300px;
+    width: 100%;
+}
+#secondo_terzo {
+    width: 100%;
+    height: 600px;
+}
+#secondo_terzo img {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+#margine_negozio {
+    margin-bottom: -15px;
+}
+/*Fine Gallery*/
+
+/*Inizio Discovery*/
+
+#discover {
+    background-color: #282f35;
+    height: 200px;
+    width: 100%;
+}
+#spazio {
+    height: 30px;
+}
+
+#bordo_bottone {
+    margin-top: 30px;
+}
+
+#bordo_bottone a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#bordo_bottone a:hover {
+    text-decoration: none;
+    color: #282f35;
+    background-color: #fff;
+}
+
+/*Fine Discovery*/
+
+/*Inizio Form*/
+
+
+#form {
+    background-color: #fff;
+    height: 300px;
+    padding: 90px;
+}
+
+#form p {
+    font-size: 25px;important!
+}
+input[type=text] {
+    width: 500px;
+    height: 80px;
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 80px;
+    border: 1px solid #64c29e;
+    background-color: #64c29e;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+#form img {
+margin-bottom: 40px;
+}
+
+/*Fine Form*/
+
+/*Inizio Footer*/
+
+#footer {
+    height: 150px;
+    width: 100%;
+    background-color: #f7f7f7;
+    line-height: 150px;
+    text-align: center;
+}
+
+#float {
+    float: right;
+    margin-right: 10px;
+}
+#float:last-child {
+    margin-right: 0;
+}
+
+#footer img {
+    padding-top: 10px;
+}
+
+/*Fine Footer*/

@@ -1,0 +1,42 @@
+/*slick slide */
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+.slick-slide {
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+}
+.slick-dots {
+    width: 30px;
+    text-align: center;
+} 
+
+#social_outline ul {
+    text-align: center;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#socialoutline li {
+    width: 5px;
+    border-radius: 5px;
+}
+
+.slick-list
+{
+    text-align: center;
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
